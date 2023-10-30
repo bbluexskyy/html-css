@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: floralwhite;
+                margin: 0px;
+            }
+
+            header > h1{
+                text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.571);
+            }
+
+            nav{
+                background-color: rgb(146, 131, 113);
+                width: fit-content;
+            }
+
+            header{
+                padding: 10px;
+                background-color: rgb(228, 215, 196);
+                margin: 10px;
+            }
+
+            main{
+                background-color: antiquewhite;
+                padding: 10px;
+                margin: 10px;
+                box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.481);
+                border-radius: 15px;
+            }
+
+            nav > a{
+                text-decoration: none;
+                color: white;
+                font-weight: normal;
+                margin-right: 10px;
+                padding: 0px 0px 0px 10px;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+
+            footer{
+                background-color: rgb(146, 131, 113);
+                color: antiquewhite;
+                padding: 10px;
+                text-align: center;
+                margin-top: 25px;
+            }
+
+            article > aside{
+                background-color: rgb(247, 225, 197);
+                width: fit-content;
+                padding: 0px 5px 0px 5px;
+            }
+
+            footer > p{
+                margin: 0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                <p>Rico demonho passou nas finais da OMAP</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>A medalha do Rico</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatem quasi nemo nobis porro, quia dolores beatae, quas magnam explicabo non unde consequuntur veniam! Quis perspiciatis autem voluptate sequi similique?</p>
+                    <aside>
+                        <p>Artigo escrito por Gustavo Guanabara</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido pela Nanda</p>
+        </footer>
+    </body>
+</html>

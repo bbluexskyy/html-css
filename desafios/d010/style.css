@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf');
+}
+
+html{
+    margin-top: -34px;
+}
+
+body{
+    margin: 0px;
+    background-color: #E8E5C2;
+}
+
+.cabecalho{
+    background-image: linear-gradient(#239054, #0F311D);
+    color: white;
+    margin: 0px;
+    height: 300px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.438);
+}
+
+.titulocabecalho{
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 50px;
+}
+
+.p1cabecalho{
+    font-size: 25px;
+    padding-top: 26px;
+}
+
+.links{
+    text-align: left;
+}
+
+.a{
+    color: #8FD4AA;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.a:hover{
+    background-color: #2BA464;
+    color: #005718;
+    border-radius: 10px;
+}
+
+.div1{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 23px #0000006b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1div1{
+    font-family: 'Idroid';
+    margin: 0px;
+    color: #0C3B2A;
+}
+
+.div1 > p{
+    text-indent: 30px;
+    line-height: 35px;
+}
+
+.span1div1{
+    color: #355145;
+    font-weight: bolder;
+}
+
+.h2div1{
+    font-family: 'Idroid';
+    margin: 0px;
+    color: #0E5930;
+    background-color: #BCF0D1;
+}
+
+.a2div1{
+    background-color: #7FE0B1;
+    color: #00400F;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.a2div1:hover{
+    text-decoration: underline;
+}
+
+.imagemgdiv1{
+    display: inline-block;
+}
+
+.div1 .imagemgdiv1{
+    text-align: center;
+}
